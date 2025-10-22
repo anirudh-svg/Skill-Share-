@@ -1,6 +1,6 @@
 # WE GROW - Deployment Checklist
 
-## ✅ Pre-Deployment Checklist
+##  Pre-Deployment Checklist
 
 ### Code Review
 - [ ] All features are complete and tested
@@ -39,7 +39,7 @@
 - [ ] Passwords are properly hashed
 - [ ] JWT tokens have appropriate expiration
 
-## 🚀 Deployment Steps
+##  Deployment Steps
 
 ### Frontend Deployment (Vercel)
 - [ ] Connect GitHub repository to Vercel
@@ -93,7 +93,7 @@
 - [ ] Real-time features work
 - [ ] File uploads work (if applicable)
 
-## 🆘 Emergency Procedures
+##  Emergency Procedures
 
 ### Rollback Plan
 - [ ] Previous working version is tagged in Git
@@ -105,7 +105,7 @@
 - [ ] Escalation procedures
 - [ ] Communication plan for users
 
-## 📊 Monitoring and Maintenance
+##  Monitoring and Maintenance
 
 ### Daily Checks
 - [ ] Application is running
@@ -125,18 +125,3 @@
 - [ ] Update documentation
 - [ ] Team training on new features
 
-## 📞 Support Contacts
-
-### Development Team
-- Lead Developer: [Name, Email, Phone]
-- Backend Developer: [Name, Email, Phone]
-- Frontend Developer: [Name, Email, Phone]
-
-### Hosting Providers
-- Vercel Support: [Contact Information]
-- Render Support: [Contact Information]
-- MongoDB Atlas Support: [Contact Information]
-
-### Third-Party Services
-- [Service Name]: [Contact Information]
-- [Service Name]: [Contact Information]
