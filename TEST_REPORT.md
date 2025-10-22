@@ -46,11 +46,11 @@ tests/
 - Rating calculation methods
 
 **Coverage Summary:**
-- ✅ User creation with valid data
-- ✅ Password encryption before saving
-- ✅ Prevention of duplicate email registration
-- ✅ Average rating calculation
-- ✅ Empty ratings handling
+-  User creation with valid data
+-  Password encryption before saving
+-  Prevention of duplicate email registration
+-  Average rating calculation
+-  Empty ratings handling
 
 #### Controllers
 
@@ -61,11 +61,11 @@ tests/
 - Invalid credentials handling
 
 **Coverage Summary:**
-- ✅ Successful user registration
-- ✅ Duplicate user detection
-- ✅ Successful user login
-- ✅ Invalid email handling
-- ✅ Invalid password handling
+-  Successful user registration
+-  Duplicate user detection
+-  Successful user login
+-  Invalid email handling
+-  Invalid password handling
 
 ### Integration Tests
 
@@ -76,13 +76,13 @@ tests/
 - Profile retrieval for authenticated users
 
 **Coverage Summary:**
-- ✅ POST /api/auth/register endpoint
-- ✅ POST /api/auth/login endpoint
-- ✅ GET /api/auth/profile endpoint
-- ✅ Duplicate email prevention
-- ✅ Missing field validation
-- ✅ Invalid credential handling
-- ✅ Unauthorized access prevention
+-  POST /api/auth/register endpoint
+-  POST /api/auth/login endpoint
+-  GET /api/auth/profile endpoint
+-  Duplicate email prevention
+-  Missing field validation
+-  Invalid credential handling
+-  Unauthorized access prevention
 
 ## Frontend Tests
 
@@ -97,11 +97,11 @@ tests/
 - Navigation link functionality
 
 **Coverage Summary:**
-- ✅ Login form rendering
-- ✅ Email input functionality
-- ✅ Password input functionality
-- ✅ Loading state during submission
-- ✅ Sign up link navigation
+-  Login form rendering
+-  Email input functionality
+-  Password input functionality
+-  Loading state during submission
+-  Sign up link navigation
 
 **Register Component Tests**
 - Registration form rendering
@@ -110,10 +110,10 @@ tests/
 - Navigation link functionality
 
 **Coverage Summary:**
-- ✅ Registration form rendering
-- ✅ All input fields functionality
-- ✅ Password mismatch handling
-- ✅ Sign in link navigation
+-  Registration form rendering
+-  All input fields functionality
+-  Password mismatch handling
+-  Sign in link navigation
 
 #### Services
 
@@ -123,10 +123,10 @@ tests/
 - Endpoint validation
 
 **Coverage Summary:**
-- ✅ Register endpoint calling
-- ✅ Login endpoint calling
-- ✅ Get all users endpoint
-- ✅ Get user by ID endpoint
+-  Register endpoint calling
+-  Login endpoint calling
+-  Get all users endpoint
+-  Get user by ID endpoint
 
 #### Utilities
 
@@ -136,9 +136,9 @@ tests/
 - Text truncation
 
 **Coverage Summary:**
-- ✅ Relative time formatting
-- ✅ Email validation logic
-- ✅ Text truncation functionality
+-  Relative time formatting
+-  Email validation logic
+-  Text truncation functionality
 
 ### E2E Tests
 
