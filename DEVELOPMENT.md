@@ -51,8 +51,8 @@ Update the `.env` file with your configuration using your actual credentials:
 ```
 NODE_ENV=development
 PORT=5000
-MONGODB_URI=mongodb+srv://M_Anirudh:Anirudh1909@cluster0.zlykv0l.mongodb.net/we-grow?retryWrites=true&w=majority&appName=Cluster0
-JWT_SECRET=A8JsnP2x!vT34kzQqLp9@5zSm
+MONGODB_URI=your_mongodb_atlas_connection_string_here
+JWT_SECRET=your_secure_jwt_secret_here
 CLIENT_URL=http://localhost:3000
 ```
 
