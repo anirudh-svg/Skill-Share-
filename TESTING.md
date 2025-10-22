@@ -4,7 +4,7 @@ This guide explains how to run and write tests for the WE GROW application.
 
 For a comprehensive test report with results and coverage metrics, please refer to [TEST_REPORT.md](TEST_REPORT.md).
 
-## 🧪 Testing Structure
+##  Testing Structure
 
 ```
 we-grow/
@@ -65,7 +65,7 @@ npm run test:server
 npm run test:all
 ```
 
-## 🧪 Test Types
+##  Test Types
 
 ### Unit Tests
 Unit tests focus on individual functions, components, or modules in isolation.
@@ -105,7 +105,7 @@ E2E tests simulate real user scenarios across the entire application.
 - Skill marketplace interactions
 - Booking and chat functionality
 
-## 🧪 Writing Tests
+##  Writing Tests
 
 ### Frontend Test Guidelines
 
@@ -147,7 +147,7 @@ E2E tests simulate real user scenarios across the entire application.
    - Test early termination
    - Test side effects
 
-## 🧪 Mocking Strategy
+##  Mocking Strategy
 
 ### Frontend Mocking
 - Use `jest.mock()` for module mocking
@@ -161,7 +161,7 @@ E2E tests simulate real user scenarios across the entire application.
 - Mock file system operations
 - Mock environment variables
 
-## 🧪 Test Coverage
+##  Test Coverage
 
 The project aims for the following coverage targets:
 - **Unit Tests**: 80% coverage
@@ -170,14 +170,14 @@ The project aims for the following coverage targets:
 
 Run `npm run test:coverage` to see current coverage reports.
 
-## 🧪 Continuous Integration
+##  Continuous Integration
 
 Tests are automatically run in the CI pipeline:
 1. On every pull request
 2. Before merging to main branch
 3. On scheduled builds
 
-## 🧪 Best Practices
+##  Best Practices
 
 1. **Test Naming:**
    - Use descriptive test names
@@ -199,7 +199,7 @@ Tests are automatically run in the CI pipeline:
    - Use appropriate timeouts
    - Parallelize when possible
 
-## 🧪 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -225,7 +225,7 @@ Tests are automatically run in the CI pipeline:
 3. Use `--testNamePattern` to run specific tests
 4. Use `--watch` mode for development
 
-## 🧪 Adding New Tests
+##  Adding New Tests
 
 1. Create test file in appropriate directory
 2. Follow existing test patterns
@@ -234,7 +234,7 @@ Tests are automatically run in the CI pipeline:
 5. Run tests to verify they pass
 6. Check coverage to ensure adequacy
 
-## 🧪 Test Dependencies
+##  Test Dependencies
 
 The project uses the following testing libraries:
 
@@ -250,7 +250,7 @@ The project uses the following testing libraries:
 - `supertest` - HTTP assertions
 - `mongodb-memory-server` - In-memory MongoDB for testing
 
-## 🧪 CI/CD Integration
+##  CI/CD Integration
 
 Tests are integrated into the CI/CD pipeline:
 - Run on every code push
