@@ -2,7 +2,7 @@
 
 This guide provides instructions for deploying the WE GROW application to production environments.
 
-## 🚀 Deployment Options
+##  Deployment Options
 
 ### Frontend Deployment
 The frontend can be deployed to any static hosting service:
@@ -21,7 +21,7 @@ The backend can be deployed to any Node.js hosting service:
 - AWS Elastic Beanstalk
 - Google Cloud Run
 
-## 📦 Deployment Steps
+##  Deployment Steps
 
 ### 1. Build the Frontend
 
@@ -94,7 +94,7 @@ CLIENT_URL=https://your-frontend-url.com
    railway up
    ```
 
-## 🌐 Environment Configuration
+##  Environment Configuration
 
 ### MongoDB Atlas
 Ensure your MongoDB Atlas cluster is configured:
@@ -108,7 +108,7 @@ Make sure the `CLIENT_URL` environment variable matches your frontend URL:
 CLIENT_URL=https://your-frontend-domain.com
 ```
 
-## 🔧 Production Optimizations
+##  Production Optimizations
 
 ### Backend Optimizations
 1. Use a production MongoDB cluster
@@ -123,7 +123,7 @@ CLIENT_URL=https://your-frontend-domain.com
 3. Implement service workers for offline support
 4. Optimize images and assets
 
-## 🔄 CI/CD Pipeline
+##  CI/CD Pipeline
 
 ### GitHub Actions Example
 Create `.github/workflows/deploy.yml`:
@@ -192,7 +192,7 @@ Consider integrating:
 - LogRocket for session replay
 - New Relic for performance monitoring
 
-## 🔒 Security Considerations
+##  Security Considerations
 
 1. Use HTTPS in production
 2. Set secure headers with Helmet.js
@@ -201,7 +201,7 @@ Consider integrating:
 5. Use environment variables for secrets
 6. Regular security audits
 
-## 🆘 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -242,7 +242,7 @@ Consider integrating:
    echo $MONGODB_URI
    ```
 
-## 📞 Support
+##  Support
 
 For deployment issues, contact:
 - Repository maintainers
