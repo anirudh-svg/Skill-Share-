@@ -142,10 +142,10 @@ This project includes helpful scripts in the root `package.json`:
 - `npm run reinstall` - Clean and reinstall all dependencies
 - `npm run lint` - Run linting on both frontend and backend
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔒 Security Notice
+##  Security Notice
 
 For security reasons, all sensitive credentials have been removed from this repository. Please use your own MongoDB Atlas credentials and JWT secret when setting up the application. See [DEVELOPMENT.md](DEVELOPMENT.md) for setup instructions.
